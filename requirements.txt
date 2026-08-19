@@ -1,0 +1,41 @@
+# Versions below are pinned EXACTLY to this project's reference
+# training/build environment -- the one that actually produced every
+# committed artifact under artifacts/. This is deliberate, not
+# incidental: scikit-learn's joblib-pickled models and
+# qiskit-machine-learning's dill-serialized VQC circuits both embed
+# internal, version-specific class representations. A newer or older
+# library version can fail to deserialize them (observed concretely:
+# qiskit 2.3.0 raises `AttributeError:
+# qiskit._accelerate.circuit.ParameterExpression has no attribute
+# '_reconstruct'` when loading a VQC .dill file trained under qiskit
+# 2.5.1). Loose >= ranges silently allow this mismatch. If you need to
+# retrain artifacts under different versions, retrain ALL affected
+# artifacts in that same environment and re-pin this file to match --
+# don't mix trained-here artifacts with a different installed version.
+
+numpy==2.4.4
+scipy==1.17.1
+
+scikit-learn==1.8.0
+joblib==1.5.3
+xgboost==3.4.0
+
+qiskit==2.5.1
+qiskit-machine-learning==0.9.0
+qiskit-algorithms==0.4.0
+qiskit-aer==0.17.2
+dill==0.4.1
+
+matplotlib==3.10.8
+pandas==3.0.2
+
+tqdm>=4.65
+
+pytest==9.1.1
+
+redis==8.1.0
+flask==3.1.3
+gunicorn==23.0.0
+PyYAML==6.0.3
+requests==2.33.1
+PyJWT==2.7.0

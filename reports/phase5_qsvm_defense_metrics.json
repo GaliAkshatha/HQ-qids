@@ -1,0 +1,18 @@
+{
+  "total_defense_decisions": 25,
+  "actions_selected": {
+    "ISOLATE_SIMULATED_SOURCE": 24,
+    "RATE_LIMIT": 1
+  },
+  "actions_executed": 25,
+  "actions_rejected": 0,
+  "successful_remediations": 25,
+  "failed_remediations": 0,
+  "recovery_attempts": 0,
+  "successful_recoveries": 0,
+  "failed_recoveries": 0,
+  "rollbacks": 0,
+  "verification_failures": 0,
+  "defense_success_rate": 1.0,
+  "self_healing_success_rate": null
+}

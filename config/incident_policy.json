@@ -1,0 +1,14 @@
+{
+  "escalation": {
+    "on_critical_risk": true,
+    "on_unresolved_conflict_at_high_or_above": true,
+    "on_defense_action_failed": true,
+    "on_recovery_failed": true,
+    "repeated_incident_enabled": true,
+    "repeated_incident_threshold": 3
+  },
+  "event_store": {
+    "backend": "jsonl",
+    "path": "logs/incident_events.jsonl"
+  }
+}

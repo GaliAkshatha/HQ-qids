@@ -1,0 +1,48 @@
+{
+  "hybrid": {
+    "total_samples": 300,
+    "classical_predictions": {
+      "normal": 172,
+      "attack": 128
+    },
+    "final_predictions": {
+      "normal": 172,
+      "attack": 128
+    },
+    "risk_distribution": {
+      "LOW": 170,
+      "HIGH": 128,
+      "MEDIUM": 2
+    },
+    "quantum_invocations": 99,
+    "quantum_successes": 99,
+    "quantum_failures": 0,
+    "classical_fallbacks": 0,
+    "agreements": 95,
+    "disagreements": 4,
+    "decision_changes": 0,
+    "quantum_confirmation_rate": 0.9595959595959596,
+    "quantum_disagreement_rate": 0.04040404040404041,
+    "quantum_decision_change_rate": 0.0
+  },
+  "defense": {
+    "total_defense_decisions": 300,
+    "actions_selected": {
+      "MONITOR": 170,
+      "ISOLATE_SIMULATED_SOURCE": 124,
+      "RATE_LIMIT": 4,
+      "INCREASE_MONITORING": 2
+    },
+    "actions_executed": 300,
+    "actions_rejected": 0,
+    "successful_remediations": 300,
+    "failed_remediations": 0,
+    "recovery_attempts": 0,
+    "successful_recoveries": 0,
+    "failed_recoveries": 0,
+    "rollbacks": 0,
+    "verification_failures": 0,
+    "defense_success_rate": 1.0,
+    "self_healing_success_rate": null
+  }
+}

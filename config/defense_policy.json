@@ -1,0 +1,31 @@
+{
+  "risk_action_map": {
+    "LOW": {
+      "normal": "MONITOR",
+      "confirmed": "MONITOR",
+      "uncertain": "MONITOR"
+    },
+    "MEDIUM": {
+      "normal": "INCREASE_MONITORING",
+      "confirmed": "INCREASE_MONITORING",
+      "uncertain": "INCREASE_MONITORING"
+    },
+    "HIGH": {
+      "normal": "RATE_LIMIT",
+      "confirmed": "ISOLATE_SIMULATED_SOURCE",
+      "uncertain": "RATE_LIMIT"
+    },
+    "CRITICAL": {
+      "normal": "ISOLATE_SIMULATED_SOURCE",
+      "confirmed": "BLOCK_SIMULATED_SOURCE",
+      "uncertain": "ISOLATE_SIMULATED_SOURCE"
+    }
+  },
+  "disabled_actions": [],
+  "uncertain_requires_reversible_action": true,
+  "recovery": {
+    "max_retries": 1,
+    "rollback_on_failure": true
+  },
+  "simulation_mode": true
+}

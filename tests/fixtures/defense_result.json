@@ -1,0 +1,12 @@
+{
+    "schema_version": "1.0",
+    "sample_id": "flow_demo_001",
+    "severity": "HIGH",
+    "risk_score": 0.86,
+    "action": "temporary_mitigation",
+    "action_status": "executed",
+    "recovery_status": "monitoring",
+    "health_status": "healthy",
+    "rollback_available": true,
+    "timestamp": "2026-07-31T22:31:00"
+}

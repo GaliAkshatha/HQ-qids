@@ -1,0 +1,22 @@
+{
+  "total_samples": 25,
+  "classical_predictions": {
+    "attack": 25
+  },
+  "final_predictions": {
+    "attack": 25
+  },
+  "risk_distribution": {
+    "HIGH": 25
+  },
+  "quantum_invocations": 25,
+  "quantum_successes": 25,
+  "quantum_failures": 0,
+  "classical_fallbacks": 0,
+  "agreements": 24,
+  "disagreements": 1,
+  "decision_changes": 0,
+  "quantum_confirmation_rate": 0.96,
+  "quantum_disagreement_rate": 0.04,
+  "quantum_decision_change_rate": 0.0
+}

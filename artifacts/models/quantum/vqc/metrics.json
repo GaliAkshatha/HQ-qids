@@ -1,0 +1,47 @@
+{
+  "dataset": {
+    "train_subsample_size": 200,
+    "test_subsample_size": 100,
+    "num_qubits": 4,
+    "random_state": 42
+  },
+  "training_time_seconds": {
+    "vqc_fit": 103.15376765500001,
+    "total": 103.15376765500001
+  },
+  "inference_time_seconds": {
+    "total_batch": 0.5622716949999926,
+    "per_sample_ms": 5.622716949999926,
+    "test_set_size": 100
+  },
+  "metrics": {
+    "accuracy": 0.62,
+    "precision": 0.576271186440678,
+    "recall": 0.723404255319149,
+    "f1": 0.6415094339622641,
+    "false_positive_rate": 0.4716981132075472,
+    "false_negative_rate": 0.2765957446808511,
+    "confusion_matrix": {
+      "tn": 28,
+      "fp": 25,
+      "fn": 13,
+      "tp": 34
+    }
+  },
+  "config": {
+    "feature_map": {
+      "type": "ZZFeatureMap",
+      "num_qubits": 4,
+      "reps": 2
+    },
+    "ansatz": {
+      "type": "RealAmplitudes",
+      "num_qubits": 4,
+      "reps": 2
+    },
+    "optimizer": {
+      "type": "COBYLA",
+      "maxiter": 100
+    }
+  }
+}

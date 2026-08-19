@@ -1,0 +1,4 @@
+{
+  "type": "COBYLA",
+  "maxiter": 100
+}

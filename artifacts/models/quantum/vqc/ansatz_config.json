@@ -1,0 +1,5 @@
+{
+  "type": "RealAmplitudes",
+  "num_qubits": 4,
+  "reps": 2
+}

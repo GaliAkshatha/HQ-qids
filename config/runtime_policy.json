@@ -1,0 +1,49 @@
+{
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "db": 0
+  },
+  "streams": {
+    "traffic_ingested": "traffic.ingested",
+    "detection_completed": "detection.completed",
+    "quantum_completed": "quantum.completed",
+    "risk_assessed": "risk.assessed",
+    "defense_completed": "defense.completed",
+    "incident_updated": "incident.updated",
+    "dead_letter": "events.dead_letter"
+  },
+  "consumer_groups": {
+    "detection_worker": "detection.completed.detection-worker.group",
+    "quantum_worker": "quantum.completed.quantum-worker.group",
+    "risk_worker": "risk.assessed.risk-worker.group",
+    "defense_worker": "defense.completed.defense-worker.group",
+    "incident_worker": "incident.updated.incident-worker.group"
+  },
+  "retry": {
+    "max_retries": 3,
+    "backoff_seconds": 0.5,
+    "backoff_multiplier": 2.0
+  },
+  "pending_recovery": {
+    "min_idle_time_ms": 30000,
+    "claim_batch_size": 10
+  },
+  "idempotency": {
+    "key_prefix": "idempotency",
+    "ttl_seconds": 86400
+  },
+  "health": {
+    "traffic_gateway_port": 8001,
+    "detection_worker_port": 8002,
+    "quantum_worker_port": 8003,
+    "risk_worker_port": 8004,
+    "defense_worker_port": 8005,
+    "incident_worker_port": 8006
+  },
+  "worker_concurrency": {
+    "consumer_name_prefix": "worker",
+    "block_ms": 2000,
+    "batch_size": 10
+  }
+}

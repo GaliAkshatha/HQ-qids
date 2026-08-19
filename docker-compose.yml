@@ -1,0 +1,126 @@
+# Phase 7 distributed runtime. Start everything with:
+#
+#   docker compose -f docker-compose.yml up --build
+#
+# NOTE: not executed/verified in this project's development environment
+# -- Docker was unavailable there. Statically reviewed only. See the
+# Phase 7 report for exactly what WAS verified (the same service
+# entrypoints run as plain Python processes against a real redis-server).
+
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  traffic-gateway:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ["python", "-m", "src.runtime.services.traffic_gateway"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - "8001:8001"
+
+  detection-worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ["python", "-m", "src.runtime.services.detection_worker"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - "8002:8002"
+
+  quantum-worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ["python", "-m", "src.runtime.services.quantum_worker"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - "8003:8003"
+
+  risk-worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ["python", "-m", "src.runtime.services.risk_worker"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - "8004:8004"
+
+  defense-worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ["python", "-m", "src.runtime.services.defense_worker"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - "8005:8005"
+
+  incident-worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ["python", "-m", "src.runtime.services.incident_worker"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - REDIS_HOST=redis
+    volumes:
+      - incident-logs:/app/logs
+    ports:
+      - "8006:8006"
+
+  api-backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    command: ["python", "-m", "src.api.app"]
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      - REDIS_HOST=redis
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - api-backend
+    ports:
+      - "5173:5173"
+
+volumes:
+  incident-logs:

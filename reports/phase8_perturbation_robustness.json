@@ -1,0 +1,59 @@
+{
+  "accuracy_by_perturbation_magnitude": {
+    "0.0": 1.0,
+    "0.05": 1.0,
+    "0.15": 1.0,
+    "0.3": 1.0
+  },
+  "total_samples": 32,
+  "confusion_matrix": {
+    "normal": {
+      "normal": 16,
+      "attack": 0,
+      "unknown": 0
+    },
+    "attack": {
+      "normal": 0,
+      "attack": 16,
+      "unknown": 0
+    }
+  },
+  "confusion_matrix_accuracy": 1.0,
+  "scenario_distribution": {
+    "normal_browsing": 16,
+    "neptune_flood": 9,
+    "portsweep_recon": 1,
+    "ipsweep_recon": 3,
+    "satan_scan": 2,
+    "smurf_flood": 1
+  },
+  "escalation_rate_by_scenario": {
+    "normal_browsing": 0.75,
+    "neptune_flood": 0.5555555555555556,
+    "portsweep_recon": 1.0,
+    "ipsweep_recon": 1.0,
+    "satan_scan": 1.0,
+    "smurf_flood": 1.0
+  },
+  "defense_action_distribution_by_scenario": {
+    "normal_browsing": {
+      "MONITOR": 16
+    },
+    "neptune_flood": {
+      "ISOLATE_SIMULATED_SOURCE": 9
+    },
+    "portsweep_recon": {
+      "ISOLATE_SIMULATED_SOURCE": 1
+    },
+    "ipsweep_recon": {
+      "ISOLATE_SIMULATED_SOURCE": 3
+    },
+    "satan_scan": {
+      "ISOLATE_SIMULATED_SOURCE": 1,
+      "RATE_LIMIT": 1
+    },
+    "smurf_flood": {
+      "ISOLATE_SIMULATED_SOURCE": 1
+    }
+  }
+}

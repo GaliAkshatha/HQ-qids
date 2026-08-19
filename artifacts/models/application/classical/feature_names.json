@@ -1,0 +1,1 @@
+["request_rate", "failed_auth_rate", "validation_failure_rate", "endpoint_switch_rate", "repeated_resource_access_rate", "invalid_resource_rate", "auth_failure_burst", "crud_anomaly_score", "response_error_rate", "latency_anomaly_score", "session_action_entropy"]

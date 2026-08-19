@@ -1,0 +1,45 @@
+{
+  "n_qubits": 2,
+  "train_size": 48,
+  "test_size": 16,
+  "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+  "bounded_experiment": true,
+  "qsvm": {
+    "metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": {
+        "tn": 7,
+        "fp": 0,
+        "fn": 0,
+        "tp": 9
+      },
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.0
+    },
+    "training_time_seconds": 3.4051309300000128,
+    "inference_time_seconds_total": 2.3045088769999893,
+    "inference_time_ms_per_sample": 144.03180481249933
+  },
+  "vqc": {
+    "metrics": {
+      "accuracy": 0.9375,
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1": 0.9411764705882353,
+      "confusion_matrix": {
+        "tn": 7,
+        "fp": 0,
+        "fn": 1,
+        "tp": 8
+      },
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.1111111111111111
+    },
+    "training_time_seconds": 5.031170244000009,
+    "inference_time_seconds_total": 0.034332527000003665,
+    "inference_time_ms_per_sample": 2.145782937500229
+  }
+}

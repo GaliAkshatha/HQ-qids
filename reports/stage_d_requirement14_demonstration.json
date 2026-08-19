@@ -1,0 +1,16 @@
+{
+  "observations": 6,
+  "status_codes": [
+    201,
+    401,
+    401,
+    401,
+    401,
+    401
+  ],
+  "final_incident_state": "RESOLVED",
+  "escalated": false,
+  "detection_source": "APPLICATION_SECURITY",
+  "target_label": "CONTROLLED_LOCAL_SUZUME",
+  "note": "Real demonstration using the controlled local Suzume-compatible target -- the public deployment remains unreachable from this environment (network egress block), so this is NOT REAL_SUZUME_INTERACTION data."
+}

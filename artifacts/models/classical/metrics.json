@@ -1,0 +1,55 @@
+{
+  "dataset": {
+    "raw_path": "/home/claude/repo/Data/raw/KDDTrain+.txt",
+    "train_rows": 100778,
+    "test_rows": 25195,
+    "feature_count": 41,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "training_time_seconds": {
+    "random_forest": 12.580120646000012,
+    "xgboost": 2.4314889929999595,
+    "isolation_forest": 1.1150456759999656,
+    "total": 16.126655314999937
+  },
+  "inference_time_seconds": {
+    "total": 0.836177661000022,
+    "per_sample_ms": 0.03318823818217988,
+    "test_set_size": 25195
+  },
+  "metrics": {
+    "accuracy": 0.9990871204604088,
+    "precision": 0.9992352141400408,
+    "recall": 0.9988108383589569,
+    "f1": 0.999022981181768,
+    "false_positive_rate": 0.0006705409029950827,
+    "false_negative_rate": 0.0011891616410430645,
+    "confusion_matrix": {
+      "tn": 13413,
+      "fp": 9,
+      "fn": 14,
+      "tp": 11759
+    }
+  },
+  "model_params": {
+    "random_forest": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "random_state": 42,
+      "n_jobs": -1
+    },
+    "xgboost": {
+      "n_estimators": 200,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "random_state": 42,
+      "eval_metric": "logloss",
+      "n_jobs": -1
+    },
+    "isolation_forest": {
+      "n_estimators": 200,
+      "random_state": 42
+    }
+  }
+}

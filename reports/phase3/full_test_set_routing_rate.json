@@ -1,0 +1,20 @@
+{
+  "total_events": 25195,
+  "quantum_candidates": 9436,
+  "skipped_events": 15759,
+  "potential_quantum_invocation_rate": 0.37451875372097637,
+  "reason_code_breakdown": {
+    "LOW_CONFIDENCE": 58,
+    "HIGH_ANOMALY": 9351,
+    "HIGH_DISAGREEMENT": 82
+  },
+  "policy_thresholds": {
+    "confidence_threshold": 0.7,
+    "anomaly_threshold": 0.7,
+    "disagreement_threshold": 0.3
+  },
+  "classical_detection_time_seconds": 0.8114743750000457,
+  "routing_evaluation_time_seconds": 0.01753002700002071,
+  "per_sample_classical_ms": 0.03220775451478649,
+  "per_sample_routing_eval_ms": 0.0006957740424695658
+}

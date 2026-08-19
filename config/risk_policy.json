@@ -1,0 +1,24 @@
+{
+  "combination_weights": {
+    "threat_evidence": 0.75,
+    "system_uncertainty": 0.25
+  },
+  "threat_evidence_weights": {
+    "classical_attack_probability": 0.4,
+    "quantum_attack_probability": 0.3,
+    "anomaly_score": 0.3
+  },
+  "system_uncertainty_weights": {
+    "model_disagreement": 0.34,
+    "quantum_conflict": 0.33,
+    "fallback": 0.33
+  },
+  "thresholds": {
+    "low_max": 0.25,
+    "medium_max": 0.50,
+    "high_max": 0.75
+  },
+  "floors": {
+    "confirmed_attack_min_level": "HIGH"
+  }
+}

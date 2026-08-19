@@ -1,0 +1,1622 @@
+{
+  "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+  "feature_names": [
+    "request_rate",
+    "failed_auth_rate",
+    "validation_failure_rate",
+    "endpoint_switch_rate",
+    "repeated_resource_access_rate",
+    "invalid_resource_rate",
+    "auth_failure_burst",
+    "crud_anomaly_score",
+    "response_error_rate",
+    "latency_anomaly_score",
+    "session_action_entropy"
+  ],
+  "train": [
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "67a88ccf-79f9-4e92-81cc-fe14be3cd3fe",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 477.2004241781549,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "811eaef7-f1c6-4005-8a0b-ed1c24c07f57",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 474.15836889521097,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "5717241f-a65b-4df2-a6ed-6954a8f4e270",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 529.9729124955835,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "673ad023-60fe-4469-b8ba-dd4071c9b4e6",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 488.94442331721626,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "de75bcab-6339-418e-9a81-7054f23e7616",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 470.3668861712135,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "ac41b549-7e99-4173-b321-f5b47ee09d05",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 501.3927576601671,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "838d2652-6773-4926-b0de-1d1a55de2574",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 566.287044610835,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "1d820e41-dafc-4e12-b1cc-665a8ff61a2f",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 495.458298926507,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "26d9f324-cc9a-4850-be92-dbf934789d99",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 569.4760820045559,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "0351d10d-3608-48f6-b26c-0fba32af7b87",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 544.5963935616604,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "59a5db19-7816-4f61-91ab-5f44ce2f6445",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 519.9607140793806,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "002e8042-5cad-42d7-bcb2-867655a00322",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 536.7686527106816,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "6cd42d4f-8975-4cad-b6cc-3dcfd5da2589",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 541.7770286539851,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "6ccbc3de-8991-4bc8-9ad4-5a162a01b2ff",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 532.9543435779002,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "aa746091-ca99-4782-87f8-ce7bdb4bc06d",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 537.3775973250538,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "fbc92cb4-9c9b-4311-9ecd-bf5a41972009",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 544.2341416218178,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "b5209233-807b-4dd3-9193-f1b9e04b3db0",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 539.2450569203115,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "cbc239e7-fe0f-4ca4-91d4-85f7f94e5c90",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 516.2326488470803,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "14bc0ff4-5157-4a72-89cf-a169bb7f00ee",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 541.7770286539851,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "53d19cf0-1d28-4f3e-b817-a15ebeaa651d",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 548.4460694698354,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "ce3c112a-6cd3-4ea1-932b-e36cd9caf7d8",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 558.3819332423377,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "d0669925-a5cf-4c64-90c0-56173cc3f465",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 538.1487682372639,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "461b793d-88a1-42c1-9dd4-a88d98d46a1d",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 536.4167362021694,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "b85998a0-ab6e-47b8-847d-23bd004367ef",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 541.6140097490522,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "bc1fb02e-a0fe-4482-9ec6-0245acafa814",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.094715586965927,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "493d86c1-7f6b-4865-a92f-66e28e12bf5f",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 492.28749589760423,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "497c242c-c5be-4611-bf70-831433229471",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 559.8059339428997,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "ebb8ee56-4bb5-49a3-902a-4a9827cbdf36",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 10.978595398504716,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "58bfa74b-b24a-4841-9182-900078400cba",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 516.173434273916,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "8906437a-ff40-4c78-a275-a994d10bdf3e",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 553.6587616499031,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "e7b57bec-6a91-491f-b74a-efa402761933",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 620.8425720620843,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "17044016-2205-4397-8948-bdeab5ece3ae",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 557.672646156706,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "99b7aa1a-1263-40b0-8d7a-982363939771",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.034361000154481,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "a6cfecea-cc27-4254-8db2-75e56297309b",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 598.3417386101377,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "bc428914-a340-4edc-8d88-1118460049ef",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.185098466150164,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "82e2ca6b-8513-4534-9f1e-1a627223d66b",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 549.8533724340176,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "b4739552-bbb8-4318-89f9-6605b6869f45",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 566.57223796034,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "956287d7-6879-4517-8f31-fcb3aea117d5",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.066476323273905,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "a6c97591-2c90-4926-8795-6987e6fbd783",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 537.4417771408097,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "4a9b6d07-9b37-44c6-9fe2-ff570d92c6a3",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 578.0824180361715,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "3b7fdb9d-f15b-40cf-a4a9-83154a96d0a0",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.265405441941857,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "f5f3bbf9-3f7b-44b3-a72a-da084971e421",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 562.5879043600563,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "151e3dd2-da51-4809-8ca6-b36960511f08",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.199755098688508,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "412d0403-6bd7-4c91-84d9-787305bea596",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 539.3258426966293,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "dc8813bd-3012-4398-98fe-28a6e3470ec0",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 499.41734642916595,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "dcd8436f-aafc-456f-ba74-51854d424d90",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 542.4674519528828,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "0efbc200-8749-4463-a8e0-34076632b116",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 538.4063173007897,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "8a2b8d15-f63b-4f00-a499-79a182908979",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 553.0536462036818,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    }
+  ],
+  "val": [
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "b991fcd7-2345-4d11-8d75-78a7de2fa376",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 427.93970805002135,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "5f5b1b2a-5a8a-439f-adcf-7e27406e9d50",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 506.6141289051506,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "7b5318d6-5288-4917-9f17-362fc2faa115",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 523.5602094240837,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "4230775f-aa76-4fe1-975b-dc2c4068cabe",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 519.3905817174515,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "1c530336-b0d2-4849-9ad7-b549cd76ba06",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 518.7020920984381,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "c6cca43c-2701-4f5c-bb7d-6e1a5679d7c9",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 530.2851755833136,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "4e2a4a4e-6de6-4f9d-9668-b40d262b7c62",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 520.0208008320333,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "b5b654ce-5c01-4ce3-8294-6271af4933c6",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 552.0117762512267,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "805cb9ff-44d8-4c3e-8588-54e2c86a2db5",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 560.4334018307491,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "944c969f-7cbe-40fa-8049-d8eaf7103169",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 551.4030143364783,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "592663e6-5920-4160-bd13-f279e27707b1",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.037690032230056,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "43dc758d-d51f-414a-8e6c-f3e0c7f84f56",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.226200455035324,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "9197665f-ad73-4061-a041-dbb2df44e474",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 533.0016878386782,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "af17469b-5805-4c71-89a8-a233daae7037",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 591.3660555884092,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "ca0fd73f-2e48-4f9c-ae25-d9170e1cfded",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 559.2841163310962,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "285c162e-a9c1-43d3-86ec-52eb738c2e7d",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 570.0712589073635,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    }
+  ],
+  "test": [
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "4f762825-cb75-4a32-81aa-603fb03c5c23",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 507.7574047954866,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "090c6d26-971a-48e5-bbfc-0bdaefe1ba12",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 508.7044992086819,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "12ff4555-f08f-4584-9819-6174fd4d343e",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 532.292405961675,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "d00cdc03-be84-417a-8d07-0575fcfb5f61",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 534.8546978070957,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "791d9daa-b62e-47ee-b3ca-b9fc110d4d18",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 518.0452426178553,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "1ddf0911-e731-409d-8c32-51befc9428e4",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 526.0081823495032,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "normal_workflow",
+      "session_id": "2ff711a1-c248-49e3-aa20-423a56072e3d",
+      "agent_type": "normal",
+      "label": "normal",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 536.3528009535161,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.875,
+        "repeated_resource_access_rate": 0.1111111111111111,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 3.169925001442312
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "96760a36-e646-4c70-9a22-6d86c624bd94",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 551.0147855634126,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "87e85efa-ad45-4151-b809-49241eb05f77",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 548.3315055616481,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "e0ca019e-a91d-479e-858d-39aa56a5af4a",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 575.7052389176741,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "eb251959-c89e-4946-a31e-7a5ee07beea6",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 543.5274934323761,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "invalid_resource_probe",
+      "session_id": "91731c15-d8c8-461f-b7fa-6833b77cffa2",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 555.6584552694943,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.8333333333333334,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "0e71e5a9-e5f2-42a8-b2d4-8c8c60ebcf55",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 550.2063273727648,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "malformed_payload_probe",
+      "session_id": "4a39d665-605f-4d37-bde3-3049ec251c79",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 521.4670606640013,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.8333333333333334,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    },
+    {
+      "scenario_id": "rapid_endpoint_switching",
+      "session_id": "723bfc4b-910e-46c9-8f23-c61178a0ee41",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 608.5898104677448,
+        "failed_auth_rate": 0.0,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 1.0,
+        "repeated_resource_access_rate": 0.0,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.0,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 2.8073549220576037
+      }
+    },
+    {
+      "scenario_id": "repeated_failed_login",
+      "session_id": "1244830d-96d7-4e9e-93fa-ade7b1a8b0ab",
+      "agent_type": "adversarial",
+      "label": "anomalous",
+      "dataset_label": "AGENT_GENERATED_LABELED_DATA",
+      "features": {
+        "request_rate": 11.160236820225325,
+        "failed_auth_rate": 0.8333333333333334,
+        "validation_failure_rate": 0.0,
+        "endpoint_switch_rate": 0.2,
+        "repeated_resource_access_rate": 0.6666666666666666,
+        "invalid_resource_rate": 0.0,
+        "auth_failure_burst": 0.8333333333333334,
+        "crud_anomaly_score": 0.0,
+        "response_error_rate": 0.0,
+        "latency_anomaly_score": 0.0,
+        "session_action_entropy": 0.6500224216483541
+      }
+    }
+  ]
+}

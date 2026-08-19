@@ -1,0 +1,24 @@
+{
+  "routing": {
+    "confidence_threshold": 0.70,
+    "anomaly_threshold": 0.70,
+    "disagreement_threshold": 0.30,
+    "combination": "any"
+  },
+  "quantum_backend": "VQC",
+  "circuit_breaker": {
+    "failure_threshold": 3,
+    "cooldown_seconds": 30
+  },
+  "execution": {
+    "timeout_seconds": {
+      "QSVM": 5.0,
+      "VQC": 1.0
+    },
+    "max_retries": 2,
+    "backoff_seconds": 0.5
+  },
+  "queue": {
+    "max_workers": 4
+  }
+}

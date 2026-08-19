@@ -1,0 +1,16 @@
+{
+    "schema_version": "1.0",
+    "sample_id": "flow_demo_001",
+    "classical_prediction": "attack",
+    "classical_confidence": 0.58,
+    "class_probabilities": {
+        "normal": 0.42,
+        "attack": 0.58
+    },
+    "anomaly_score": 0.84,
+    "model_disagreement": 0.71,
+    "metadata": {
+        "source": "mock",
+        "timestamp": "2026-07-31T22:30:00"
+    }
+}

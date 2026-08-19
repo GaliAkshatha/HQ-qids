@@ -1,0 +1,4 @@
+{
+  "quantum_override_confidence_threshold": 0.85,
+  "classical_high_confidence_threshold": 0.90
+}

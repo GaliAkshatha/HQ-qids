@@ -1,0 +1,25 @@
+{
+  "run": {
+    "default_turns": 20,
+    "normal_agent_weight": 0.6,
+    "adversarial_agent_weight": 0.4
+  },
+  "normal": {
+    "allowed_scenarios": ["normal_browsing"]
+  },
+  "adversarial": {
+    "allowed_scenarios": ["neptune_flood", "satan_scan", "portsweep_recon", "smurf_flood", "ipsweep_recon"]
+  },
+  "perturbation": {
+    "min": 0.0,
+    "max": 0.3,
+    "default": 0.05
+  },
+  "correlation": {
+    "strategy": "session"
+  },
+  "feedback": {
+    "poll_timeout_ms": 5000,
+    "poll_block_ms": 500
+  }
+}

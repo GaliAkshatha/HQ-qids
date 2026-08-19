@@ -1,0 +1,24 @@
+{
+    "schema_version": "1.0",
+    "sample_id": "flow_demo_001",
+    "final_prediction": "attack",
+    "final_confidence": 0.87,
+    "quantum_used": true,
+    "quantum_model": "QSVM",
+    "quantum_prediction": "attack",
+    "quantum_confidence": 0.87,
+    "verification_reason": [
+        "low_classical_confidence",
+        "high_anomaly",
+        "model_disagreement"
+    ],
+    "decision_status": "confirmed",
+    "evidence": {
+        "classical_confidence": 0.58,
+        "anomaly_score": 0.84,
+        "model_disagreement": 0.71
+    },
+    "metadata": {
+        "source": "mock"
+    }
+}

@@ -1,0 +1,63 @@
+{
+  "backend": "QSVM",
+  "sample_count": 25,
+  "successes": 25,
+  "fallbacks": 0,
+  "success_rate": 1.0,
+  "timing_summary_ms": {
+    "routing_latency_ms": {
+      "count": 25,
+      "mean": 0.18905716000062966,
+      "min": 0.06692700003441132,
+      "max": 1.527509000027294
+    },
+    "queue_wait_time_ms": {
+      "count": 25,
+      "mean": 0.2974302400002671,
+      "min": 0.16311799998902643,
+      "max": 0.8417129999997996
+    },
+    "quantum_execution_time_ms": {
+      "count": 25,
+      "mean": 2320.4420789999995,
+      "min": 2083.890155000006,
+      "max": 3372.500821000017
+    },
+    "total_quantum_job_time_ms": {
+      "count": 25,
+      "mean": 2320.448783719994,
+      "min": 2083.8915090000114,
+      "max": 3372.5824619999685
+    }
+  },
+  "router_metrics_snapshot": {
+    "total_events": 25,
+    "quantum_candidates": 25,
+    "skipped_events": 0,
+    "quantum_invocations": 25,
+    "quantum_successes": 25,
+    "quantum_failures": 0,
+    "fallback_count": 0,
+    "fallback_reasons": {},
+    "quantum_invocation_rate": 1.0,
+    "quantum_success_rate": 1.0,
+    "quantum_failure_rate": 0.0,
+    "fallback_rate": 0.0,
+    "routing_latency_ms": {
+      "count": 25,
+      "mean_ms": 0.18905716000062966,
+      "p50_ms": 0.08676900000637033,
+      "p95_ms": 0.2705379999952129,
+      "max_ms": 1.527509000027294
+    },
+    "quantum_latency_ms_by_backend": {
+      "QSVM": {
+        "count": 25,
+        "mean_ms": 2320.4420789999995,
+        "p50_ms": 2259.581811999965,
+        "p95_ms": 2536.1537719999774,
+        "max_ms": 3372.500821000017
+      }
+    }
+  }
+}

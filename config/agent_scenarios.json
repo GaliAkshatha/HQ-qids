@@ -1,0 +1,40 @@
+{
+  "scenarios": {
+    "normal_browsing": {
+      "category": "normal",
+      "source_label": "normal",
+      "description": "Benign traffic exemplar drawn from real NSL-KDD 'normal' rows.",
+      "default_perturbation": 0.05
+    },
+    "neptune_flood": {
+      "category": "attack",
+      "source_label": "neptune",
+      "description": "SYN-flood-style denial-of-service exemplar drawn from real NSL-KDD 'neptune' rows.",
+      "default_perturbation": 0.05
+    },
+    "satan_scan": {
+      "category": "attack",
+      "source_label": "satan",
+      "description": "Network probing/scanning exemplar drawn from real NSL-KDD 'satan' rows.",
+      "default_perturbation": 0.05
+    },
+    "portsweep_recon": {
+      "category": "attack",
+      "source_label": "portsweep",
+      "description": "Port-sweep reconnaissance exemplar drawn from real NSL-KDD 'portsweep' rows.",
+      "default_perturbation": 0.05
+    },
+    "smurf_flood": {
+      "category": "attack",
+      "source_label": "smurf",
+      "description": "ICMP-flood-style denial-of-service exemplar drawn from real NSL-KDD 'smurf' rows.",
+      "default_perturbation": 0.05
+    },
+    "ipsweep_recon": {
+      "category": "attack",
+      "source_label": "ipsweep",
+      "description": "IP-sweep reconnaissance exemplar drawn from real NSL-KDD 'ipsweep' rows.",
+      "default_perturbation": 0.05
+    }
+  }
+}
