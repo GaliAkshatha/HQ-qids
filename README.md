@@ -30,7 +30,7 @@ The system provides a web dashboard for running controlled security experiments 
 
 ## Key Capabilities
 
-###  Agent-Driven Security Experiments
+### 1 Agent-Driven Security Experiments
 
 QIDS provides controlled security agents that generate normal and adversarial scenarios for experimentation.
 
@@ -43,7 +43,7 @@ Experiments can be configured by:
 
 The generated activity is passed through the same detection and response pipeline used by the rest of the system.
 
-###  Classical Intrusion Detection
+### 2 Classical Intrusion Detection
 
 Classical machine-learning models form the primary detection layer.
 
@@ -53,7 +53,7 @@ The project includes models such as:
 - Random Forest
 - XGBoost-based detection components
 
-###  Quantum-Assisted Verification
+### 3 Quantum-Assisted Verification
 
 Suspicious activity can be routed to quantum machine-learning models for additional verification.
 
@@ -67,17 +67,17 @@ The quantum layer includes:
 
 The system supports quantum/classical routing rather than treating the quantum models as isolated experiments.
 
-###  Risk Assessment
+### 4 Risk Assessment
 
 Detection and verification results are passed into the risk layer, which evaluates the resulting security event and produces the information required by the downstream defense pipeline.
 
-###  Defense Engine
+### 5 Defense Engine
 
 The defense stage processes the security decision and executes the corresponding defense action.
 
 Defense actions are recorded as part of the security event lifecycle so that the response can be inspected afterward.
 
-###  Incident Management
+### 6 Incident Management
 
 Security events are represented as incidents with a traceable event lifecycle:
 
@@ -99,7 +99,7 @@ INCIDENT_RESOLVED / INCIDENT_ESCALATED
 
 Each stage can contain the associated reason codes and evidence returned by the backend.
 
-###  Real-Time Event Streaming
+### 7 Real-Time Event Streaming
 
 The dashboard uses Server-Sent Events (SSE) to display live security activity.
 
@@ -341,10 +341,7 @@ A ready system reports:
 
 ---
 
-
-## Author
-
-**Gali Akshatha**
-
-[GitHub](https://github.com/GaliAkshatha)
+<p align="center">
+  Built by <a href="https://github.com/GaliAkshatha">Akshatha</a>
+</p>
 
